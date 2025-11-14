@@ -1,6 +1,41 @@
+body {
+    background-color: #617470;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.main-page {
+    box-sizing: border-box;
+    display: flex;
+    max-width: 400px;
+    padding-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 1rem;
+    background: linear-gradient(0deg, #406F6E 0%, #617470 100%);
+    flex: 1 0 0;
+    color: #325A5A;
+}
+
+.button-box {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    flex: 1 0 0;
+}
+
 .button {
+    box-sizing: border-box;
+    flex: auto;
     display: flex;
     padding: 0.625rem 1rem;
+    margin: 0.652rem 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -15,13 +50,6 @@
         0 4px 5px 1px rgba(12, 14, 19, 0.15),
         inset 0 2px 3px #69A3A8,
         inset 0 -3px 2px #325A5A;
-}
+    width: 100%;
 
-.main-page {
-    display: flex;
-    padding-top: 3rem;
-    flex-direction: column;
-    align-items: left;
-    gap: 0.625rem;
-    flex: 1 0 0;
 }
